@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" translatable="false">APatch</string>
+    <string name="app_name" translatable="false">Spotify</string>
 
     <string name="home">Home</string>
 
@@ -279,3 +279,4 @@
     <string name="crash_handle_copy">Copy crash log</string>
     <string name="crash_handle_copied">Crash log copied to clipboard.</string>
 </resources>
+        
