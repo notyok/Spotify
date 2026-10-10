@@ -104,6 +104,7 @@ android {
     }
 
     defaultConfig {
+        applicationId = "com.spotify.music"
         minSdk = androidMinSdkVersion
         targetSdk = androidTargetSdkVersion
         versionCode = managerVersionCode
@@ -118,7 +119,7 @@ android {
             }
         }
         buildConfigField("String", "buildKPV", "\"$kernelPatchVersion\"")
-        base.archivesName = "APatch_${managerVersionCode}_${managerVersionName}_${branchName}"
+        base.archivesName = "Spotify_${managerVersionCode}_${managerVersionName}_${branchName}"
     }
 
     compileOptions {
